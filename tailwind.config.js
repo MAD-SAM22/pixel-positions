@@ -9,12 +9,17 @@ export default {
         './resources/**/*.js',
         './resources/**/*.vue',
     ],
-    theme: {
-        extend: {
-            fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
-            },
+    extend: {
+        colors: {
+            "black": "#060606"
         },
+        fontFamily: {
+            "hanken-grotesk": ["Hanken Grotesk", "sans-serif"]
+        },
+        fontSize: {
+            "2xs": ".625rem" // 10px
+        }
     },
+
     plugins: [],
 };
